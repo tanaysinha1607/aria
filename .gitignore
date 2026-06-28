@@ -1,0 +1,44 @@
+# Data files (too large for git)
+data/candidates.jsonl
+data/candidates.jsonl.gz
+
+# Artifact binary files
+artifacts/*.npy
+artifacts/*.npz
+artifacts/*.bin
+artifacts/*.pkl
+artifacts/*.json
+!artifacts/.gitkeep
+!artifacts/jd_structured.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual env
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
