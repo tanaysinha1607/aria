@@ -1,0 +1,43 @@
+team_name: CoffeeNCode
+
+primary_contact:
+  name: Tanay Sinha
+  email: tanaysinha1607@gmail.com
+  phone: "+919711002666"
+
+github_repository: https://github.com/tanaysinha1607/aria
+
+sandbox_demo_link: https://aria-redrob.streamlit.app
+
+ai_tools_declared:
+  - Claude
+ 
+  - Antigravity IDE
+
+compute_environment: "Windows 11, Intel Core i7, 16GB RAM, CPU-only, Python 3.11"
+
+team_members:
+  - name: Tanay Sinha
+    email: tanaysinha1607@gmail.com
+    phone: "+919711002666"
+    role: "Data pipeline, embeddings, skill graph, behavioral indexing, integrity scoring, scoring architecture, sandbox deployment"
+  - name: Atharv
+    email: atharv1945@gmail.com
+    phone: "+919999855239"
+    role: "Fusion engine, ranking pipeline and reasoning generation"
+
+methodology_summary: >
+  ARIA (Adaptive Ranked Intelligence Architecture) ranks candidates by combining
+  five complementary signals rather than relying on keyword matching alone.
+  A semantic scorer computes cosine similarity between candidate embeddings and
+  structured JD sections using all-MiniLM-L6-v2. A skill graph scorer uses
+  PMI-weighted co-occurrence graphs to surface candidates with adjacent expertise
+  even when exact JD keywords are absent. A structural scorer directly reads
+  career history text to detect production deployment evidence, location fit,
+  experience band alignment, and explicit disqualifiers such as consulting-only
+  careers or LangChain-wrapper-only AI experience. A behavioral scorer clusters
+  23 platform signals into five normalized dimensions. An integrity scorer applies
+  a soft multiplicative penalty for honeypot-style anomalies. Final scores fuse
+  these signals with structural evidence weighted highest (0.45) to compensate
+  for embedding limitations on a CPU-only pipeline. The full 100K ranking
+  completes in under 42 seconds on CPU with zero honeypot flags in the top 100.
