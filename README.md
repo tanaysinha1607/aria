@@ -4,7 +4,7 @@
 > ARIA ranks 100,000 candidates against a Senior AI Engineer JD using semantic embeddings, skill-graph reasoning, behavioral signal clustering, and integrity anomaly detection — going beyond keyword matching to surface genuine fit.
 
 **Live Sandbox:** https://aria-redrob.streamlit.app  
-**Team:** CoffeeNCode (Tanay Sinha + Atharv)  
+**Team:** CoffeeNCode (Tanay + Atharv)  
 **Submission file:** `team_aria.csv`
 
 ---
